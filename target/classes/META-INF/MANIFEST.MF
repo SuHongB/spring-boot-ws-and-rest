@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: spring-boot-index
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Quantdo
+Implementation-Vendor-Id: com.quantdo
+Build-Jdk: 1.8.0_45
+Implementation-URL: http://projects.spring.io/spring-boot/spring-boot-
+ index/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

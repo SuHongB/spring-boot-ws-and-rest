@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.quantdo.market.mapper.TaskInfoMapper">
+
+	<resultMap type="com.quantdo.market.entity.TaskInfo" id="taskInfoMap">
+        <id column="id" property="id" />
+        <result column="job_name" property="jobName" />
+        <result column="job_group" property="jobGroup" />
+        <result column="class_name" property="className" />
+        <result column="job_description" property="jobDescription" />
+        <result column="job_status" property="jobStatus" />
+        <result column="cron_expression" property="cronExpression" />
+        <result column="create_time" property="createTime" />
+    </resultMap>
+
+    <!--查询授权信息-->
+    <select id="findByCondition" parameterType="com.quantdo.market.entity.TaskInfo"  resultMap="taskInfoMap" resultType="com.quantdo.market.entity.TaskInfo">
+        SELECT * FROM t_task_info WHERE 1=1
+    </select>
+
+</mapper>

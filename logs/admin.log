@@ -1,0 +1,93 @@
+2018-11-29 18:05:51 INFO  c.q.m.Application 48 logStarting - Starting Application on LAPTOP-10S94U1O with PID 20944 (D:\work\QuantDo\Index\spring-boot-index\target\classes started by Quantdo in D:\work\QuantDo\Index\spring-boot-index)
+2018-11-29 18:05:51 INFO  c.q.m.Application 593 logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2018-11-29 18:05:51 INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext 583 prepareRefresh - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@63787180: startup date [Thu Nov 29 18:05:51 CST 2018]; root of context hierarchy
+2018-11-29 18:05:51 INFO  o.h.v.i.u.Version 30 <clinit> - HV000001: Hibernate Validator 5.3.5.Final
+2018-11-29 18:05:53 INFO  o.s.d.r.c.RepositoryConfigurationDelegate 165 multipleStoresDetected - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-11-29 18:05:56 INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer 89 initialize - Tomcat initialized with port(s): 8080 (http)
+2018-11-29 18:05:56 INFO  o.a.c.c.StandardService 179 log - Starting service [Tomcat]
+2018-11-29 18:05:56 INFO  o.a.c.c.StandardEngine 179 log - Starting Servlet Engine: Apache Tomcat/8.5.16
+2018-11-29 18:05:57 INFO  o.a.c.c.C.[.[.[/] 179 log - Initializing Spring embedded WebApplicationContext
+2018-11-29 18:05:57 INFO  o.s.w.c.ContextLoader 276 prepareEmbeddedWebApplicationContext - Root WebApplicationContext: initialization completed in 5572 ms
+2018-11-29 18:05:57 INFO  o.s.b.w.s.ServletRegistrationBean 190 onStartup - Mapping servlet: 'dispatcherServlet' to [/]
+2018-11-29 18:05:57 INFO  o.s.b.w.s.FilterRegistrationBean 258 configure - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-29 18:05:57 INFO  o.s.b.w.s.FilterRegistrationBean 258 configure - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-29 18:05:57 INFO  o.s.b.w.s.FilterRegistrationBean 258 configure - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-11-29 18:05:57 INFO  o.s.b.w.s.FilterRegistrationBean 258 configure - Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-29 18:05:58 INFO  o.q.i.StdSchedulerFactory 1184 instantiate - Using default implementation for ThreadExecutor
+2018-11-29 18:05:58 INFO  o.q.c.SchedulerSignalerImpl 61 <init> - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-11-29 18:05:58 INFO  o.q.c.QuartzScheduler 240 <init> - Quartz Scheduler v.2.2.1 created.
+2018-11-29 18:05:58 INFO  o.q.s.RAMJobStore 155 initialize - RAMJobStore initialized.
+2018-11-29 18:05:58 INFO  o.q.c.QuartzScheduler 305 initialize - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-11-29 18:05:58 INFO  o.q.i.StdSchedulerFactory 1339 instantiate - Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2018-11-29 18:05:58 INFO  o.q.i.StdSchedulerFactory 1343 instantiate - Quartz scheduler version: 2.2.1
+2018-11-29 18:05:58 INFO  o.q.c.QuartzScheduler 2311 setJobFactory - JobFactory set to: com.quantdo.market.service.job.JobFactory@3434a4f0
+2018-11-29 18:06:07 INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter 534 initControllerAdviceCache - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@63787180: startup date [Thu Nov 29 18:05:51 CST 2018]; root of context hierarchy
+2018-11-29 18:06:07 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 543 register - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-11-29 18:06:07 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 543 register - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-11-29 18:06:07 INFO  o.s.w.s.h.SimpleUrlHandlerMapping 362 registerHandler - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-11-29 18:06:07 INFO  o.s.w.s.h.SimpleUrlHandlerMapping 362 registerHandler - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-11-29 18:06:08 INFO  o.s.w.s.h.SimpleUrlHandlerMapping 362 registerHandler - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-11-29 18:06:08 INFO  o.s.j.e.a.AnnotationMBeanExporter 431 afterSingletonsInstantiated - Registering beans for JMX exposure on startup
+2018-11-29 18:06:08 INFO  o.s.c.s.DefaultLifecycleProcessor 343 start - Starting beans in phase 2147483647
+2018-11-29 18:06:08 INFO  o.s.s.q.SchedulerFactoryBean 650 startScheduler - Will start Quartz Scheduler [schedulerFactoryBean] in 1 seconds
+2018-11-29 18:06:08 INFO  o.a.c.h.Http11NioProtocol 179 log - Initializing ProtocolHandler ["http-nio-8080"]
+2018-11-29 18:06:08 INFO  o.a.c.h.Http11NioProtocol 179 log - Starting ProtocolHandler ["http-nio-8080"]
+2018-11-29 18:06:08 INFO  o.a.t.u.n.NioSelectorPool 179 log - Using a shared selector for servlet write/read
+2018-11-29 18:06:09 INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer 201 start - Tomcat started on port(s): 8080 (http)
+2018-11-29 18:06:09 INFO  c.q.m.Application 57 logStarted - Started Application in 18.197 seconds (JVM running for 19.437)
+2018-11-29 18:06:09 INFO  c.q.m.s.w.AbstractWebsocketClient$1 57 channelActive - The current link has been activated and the reconnect attempts are reset to 0.
+2018-11-29 18:06:09 INFO  o.s.s.q.SchedulerFactoryBean 665 run - Starting Quartz Scheduler now, after delay of 1 seconds
+2018-11-29 18:06:09 INFO  o.q.c.QuartzScheduler 575 start - Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2018-11-29 18:06:10 DEBUG c.q.m.s.w.b.BitstampWebsocketClientHandler 46 onReceive - 收到消息:{"event":"pusher:connection_established","data":"{\"socket_id\":\"245667.2866297\"}"}
+2018-11-29 18:06:10 INFO  c.q.m.s.w.b.BitstampWebsocketClient 167 operationComplete - --->>>ws.pusher.com:80连接成功
+2018-11-29 18:06:10 DEBUG c.q.m.s.w.b.BitstampWebsocketClient 173 lambda$0 - 订阅信息:{"event": "pusher:subscribe", "data": {"channel": "live_trades_btcusd"}}
+2018-11-29 18:06:10 DEBUG c.q.m.s.w.b.BitstampWebsocketClient 173 lambda$0 - 订阅信息:{"event": "pusher:subscribe", "data": {"channel": "live_trades_btceur"}}
+2018-11-29 18:06:10 DEBUG c.q.m.s.w.b.BitstampWebsocketClient 173 lambda$0 - 订阅信息:{"event": "pusher:subscribe", "data": {"channel": "live_trades_eurusd"}}
+2018-11-29 18:06:10 DEBUG c.q.m.s.w.b.BitstampWebsocketClient 173 lambda$0 - 订阅信息:{"event": "pusher:subscribe", "data": {"channel": "live_trades_xrpusd"}}
+2018-11-29 18:06:10 DEBUG c.q.m.s.w.b.BitstampWebsocketClient 173 lambda$0 - 订阅信息:{"event": "pusher:subscribe", "data": {"channel": "live_trades_xrpeur"}}
+2018-11-29 18:06:10 DEBUG c.q.m.s.w.b.BitstampWebsocketClient 173 lambda$0 - 订阅信息:{"event": "pusher:subscribe", "data": {"channel": "live_trades_xrpbtc"}}
+2018-11-29 18:06:10 DEBUG c.q.m.s.w.b.BitstampWebsocketClient 173 lambda$0 - 订阅信息:{"event": "pusher:subscribe", "data": {"channel": "live_trades_ltcusd"}}
+2018-11-29 18:06:10 DEBUG c.q.m.s.w.b.BitstampWebsocketClient 173 lambda$0 - 订阅信息:{"event": "pusher:subscribe", "data": {"channel": "live_trades_ltceur"}}
+2018-11-29 18:06:10 DEBUG c.q.m.s.w.b.BitstampWebsocketClient 173 lambda$0 - 订阅信息:{"event": "pusher:subscribe", "data": {"channel": "live_trades_ltcbtc"}}
+2018-11-29 18:06:10 DEBUG c.q.m.s.w.b.BitstampWebsocketClient 173 lambda$0 - 订阅信息:{"event": "pusher:subscribe", "data": {"channel": "live_trades_ethusd"}}
+2018-11-29 18:06:10 DEBUG c.q.m.s.w.b.BitstampWebsocketClient 173 lambda$0 - 订阅信息:{"event": "pusher:subscribe", "data": {"channel": "live_trades_etheur"}}
+2018-11-29 18:06:10 DEBUG c.q.m.s.w.b.BitstampWebsocketClient 173 lambda$0 - 订阅信息:{"event": "pusher:subscribe", "data": {"channel": "live_trades_ethbtc"}}
+2018-11-29 18:06:10 DEBUG c.q.m.s.w.b.BitstampWebsocketClient 173 lambda$0 - 订阅信息:{"event": "pusher:subscribe", "data": {"channel": "live_trades_bchusd"}}
+2018-11-29 18:06:10 DEBUG c.q.m.s.w.b.BitstampWebsocketClient 173 lambda$0 - 订阅信息:{"event": "pusher:subscribe", "data": {"channel": "live_trades_bcheur"}}
+2018-11-29 18:06:10 DEBUG c.q.m.s.w.b.BitstampWebsocketClient 173 lambda$0 - 订阅信息:{"event": "pusher:subscribe", "data": {"channel": "live_trades_bchbtc"}}
+2018-11-29 18:06:10 INFO  c.q.m.s.w.b.BitstampWebsocketClientHandler 42 onReceive - 收到订阅成功消息:{"event":"pusher_internal:subscription_succeeded","data":"{}","channel":"live_trades_btcusd"}
+2018-11-29 18:06:10 INFO  c.q.m.s.w.b.BitstampWebsocketClientHandler 42 onReceive - 收到订阅成功消息:{"event":"pusher_internal:subscription_succeeded","data":"{}","channel":"live_trades_btceur"}
+2018-11-29 18:06:10 INFO  c.q.m.s.w.b.BitstampWebsocketClientHandler 42 onReceive - 收到订阅成功消息:{"event":"pusher_internal:subscription_succeeded","data":"{}","channel":"live_trades_eurusd"}
+2018-11-29 18:06:10 INFO  c.q.m.s.w.b.BitstampWebsocketClientHandler 42 onReceive - 收到订阅成功消息:{"event":"pusher_internal:subscription_succeeded","data":"{}","channel":"live_trades_xrpusd"}
+2018-11-29 18:06:10 INFO  c.q.m.s.w.b.BitstampWebsocketClientHandler 42 onReceive - 收到订阅成功消息:{"event":"pusher_internal:subscription_succeeded","data":"{}","channel":"live_trades_xrpeur"}
+2018-11-29 18:06:10 INFO  c.q.m.s.w.b.BitstampWebsocketClientHandler 42 onReceive - 收到订阅成功消息:{"event":"pusher_internal:subscription_succeeded","data":"{}","channel":"live_trades_xrpbtc"}
+2018-11-29 18:06:10 INFO  c.q.m.s.w.b.BitstampWebsocketClientHandler 42 onReceive - 收到订阅成功消息:{"event":"pusher_internal:subscription_succeeded","data":"{}","channel":"live_trades_ltcusd"}
+2018-11-29 18:06:10 INFO  c.q.m.s.w.b.BitstampWebsocketClientHandler 42 onReceive - 收到订阅成功消息:{"event":"pusher_internal:subscription_succeeded","data":"{}","channel":"live_trades_ltceur"}
+2018-11-29 18:06:10 INFO  c.q.m.s.w.b.BitstampWebsocketClientHandler 42 onReceive - 收到订阅成功消息:{"event":"pusher_internal:subscription_succeeded","data":"{}","channel":"live_trades_ltcbtc"}
+2018-11-29 18:06:10 INFO  c.q.m.s.w.b.BitstampWebsocketClientHandler 42 onReceive - 收到订阅成功消息:{"event":"pusher_internal:subscription_succeeded","data":"{}","channel":"live_trades_ethusd"}
+2018-11-29 18:06:10 INFO  c.q.m.s.w.b.BitstampWebsocketClientHandler 42 onReceive - 收到订阅成功消息:{"event":"pusher_internal:subscription_succeeded","data":"{}","channel":"live_trades_etheur"}
+2018-11-29 18:06:10 INFO  c.q.m.s.w.b.BitstampWebsocketClientHandler 42 onReceive - 收到订阅成功消息:{"event":"pusher_internal:subscription_succeeded","data":"{}","channel":"live_trades_ethbtc"}
+2018-11-29 18:06:10 INFO  c.q.m.s.w.b.BitstampWebsocketClientHandler 42 onReceive - 收到订阅成功消息:{"event":"pusher_internal:subscription_succeeded","data":"{}","channel":"live_trades_bchusd"}
+2018-11-29 18:06:10 INFO  c.q.m.s.w.b.BitstampWebsocketClientHandler 42 onReceive - 收到订阅成功消息:{"event":"pusher_internal:subscription_succeeded","data":"{}","channel":"live_trades_bcheur"}
+2018-11-29 18:06:10 INFO  c.q.m.s.w.b.BitstampWebsocketClientHandler 42 onReceive - 收到订阅成功消息:{"event":"pusher_internal:subscription_succeeded","data":"{}","channel":"live_trades_bchbtc"}
+2018-11-29 18:06:10 DEBUG c.q.m.s.w.b.BitstampWebsocketClientHandler 46 onReceive - 收到消息:{"event":"trade","data":"{\"amount\": 1.89722016, \"buy_order_id\": 2466149582, \"sell_order_id\": 2466146583, \"amount_str\": \"1.89722016\", \"price_str\": \"106.58\", \"timestamp\": \"1543485970\", \"price\": 106.58, \"type\": 0, \"id\": 78645154}","channel":"live_trades_etheur"}
+2018-11-29 18:06:12 DEBUG c.q.m.s.w.b.BitstampWebsocketClientHandler 46 onReceive - 收到消息:{"event":"trade","data":"{\"amount\": 74.700800000000001, \"buy_order_id\": 2466149769, \"sell_order_id\": 2466146583, \"amount_str\": \"74.70080000\", \"price_str\": \"106.58\", \"timestamp\": \"1543485972\", \"price\": 106.58, \"type\": 0, \"id\": 78645155}","channel":"live_trades_etheur"}
+2018-11-29 18:06:13 DEBUG c.q.m.s.w.b.BitstampWebsocketClientHandler 46 onReceive - 收到消息:{"event":"trade","data":"{\"amount\": 1.1270000000000001e-05, \"buy_order_id\": 2466149799, \"sell_order_id\": 2466146583, \"amount_str\": \"0.00001127\", \"price_str\": \"106.58\", \"timestamp\": \"1543485973\", \"price\": 106.58, \"type\": 0, \"id\": 78645156}","channel":"live_trades_etheur"}
+2018-11-29 18:06:13 DEBUG c.q.m.s.w.b.BitstampWebsocketClientHandler 46 onReceive - 收到消息:{"event":"trade","data":"{\"amount\": 0.065485420000000003, \"buy_order_id\": 2466149786, \"sell_order_id\": 2466139630, \"amount_str\": \"0.06548542\", \"price_str\": \"3818.64\", \"timestamp\": \"1543485973\", \"price\": 3818.6399999999999, \"type\": 0, \"id\": 78645157}","channel":"live_trades_btceur"}
+2018-11-29 18:06:14 DEBUG c.q.m.s.w.b.BitstampWebsocketClientHandler 46 onReceive - 收到消息:{"event":"trade","data":"{\"amount\": 0.10130681, \"buy_order_id\": 2466149954, \"sell_order_id\": 2466139630, \"amount_str\": \"0.10130681\", \"price_str\": \"3818.64\", \"timestamp\": \"1543485974\", \"price\": 3818.6399999999999, \"type\": 0, \"id\": 78645160}","channel":"live_trades_btceur"}
+2018-11-29 18:06:14 DEBUG c.q.m.s.w.b.BitstampWebsocketClientHandler 46 onReceive - 收到消息:{"event":"trade","data":"{\"amount\": 1.35908542, \"buy_order_id\": 2466149956, \"sell_order_id\": 2466139630, \"amount_str\": \"1.35908542\", \"price_str\": \"3818.64\", \"timestamp\": \"1543485974\", \"price\": 3818.6399999999999, \"type\": 0, \"id\": 78645161}","channel":"live_trades_btceur"}
+2018-11-29 18:06:14 DEBUG c.q.m.s.w.b.BitstampWebsocketClientHandler 46 onReceive - 收到消息:{"event":"trade","data":"{\"amount\": 4.452, \"buy_order_id\": 2466149959, \"sell_order_id\": 2466149448, \"amount_str\": \"4.45200000\", \"price_str\": \"121.25\", \"timestamp\": \"1543485974\", \"price\": 121.25, \"type\": 0, \"id\": 78645162}","channel":"live_trades_ethusd"}
+2018-11-29 18:06:14 DEBUG c.q.m.s.w.b.BitstampWebsocketClientHandler 46 onReceive - 收到消息:{"event":"trade","data":"{\"amount\": 101.69199999999999, \"buy_order_id\": 2466149992, \"sell_order_id\": 2466135125, \"amount_str\": \"101.69200000\", \"price_str\": \"30.83\", \"timestamp\": \"1543485974\", \"price\": 30.829999999999998, \"type\": 0, \"id\": 78645163}","channel":"live_trades_ltceur"}
+2018-11-29 18:06:15 DEBUG c.q.m.s.w.b.BitstampWebsocketClientHandler 46 onReceive - 收到消息:{"event":"trade","data":"{\"amount\": 0.02, \"buy_order_id\": 2466150010, \"sell_order_id\": 2466139630, \"amount_str\": \"0.02000000\", \"price_str\": \"3818.64\", \"timestamp\": \"1543485975\", \"price\": 3818.6399999999999, \"type\": 0, \"id\": 78645164}","channel":"live_trades_btceur"}
+2018-11-29 18:06:15 DEBUG c.q.m.s.w.b.BitstampWebsocketClientHandler 46 onReceive - 收到消息:{"event":"trade","data":"{\"amount\": 1.5495796100000001, \"buy_order_id\": 2466150017, \"sell_order_id\": 2466139630, \"amount_str\": \"1.54957961\", \"price_str\": \"3818.64\", \"timestamp\": \"1543485975\", \"price\": 3818.6399999999999, \"type\": 0, \"id\": 78645165}","channel":"live_trades_btceur"}
+2018-11-29 18:06:15 DEBUG c.q.m.s.w.b.BitstampWebsocketClientHandler 46 onReceive - 收到消息:{"event":"trade","data":"{\"amount\": 8623.1810000000005, \"buy_order_id\": 2466150091, \"sell_order_id\": 2466145531, \"amount_str\": \"8623.18100000\", \"price_str\": \"0.38902\", \"timestamp\": \"1543485975\", \"price\": 0.38901999999999998, \"type\": 0, \"id\": 78645166}","channel":"live_trades_xrpusd"}
+2018-11-29 18:06:16 DEBUG c.q.m.s.w.b.BitstampWebsocketClientHandler 46 onReceive - 收到消息:{"event":"trade","data":"{\"amount\": 0.00095140000000000003, \"buy_order_id\": 2466150154, \"sell_order_id\": 2466145531, \"amount_str\": \"0.00095140\", \"price_str\": \"0.38902\", \"timestamp\": \"1543485976\", \"price\": 0.38901999999999998, \"type\": 0, \"id\": 78645167}","channel":"live_trades_xrpusd"}
+2018-11-29 18:06:16 DEBUG c.q.m.s.w.b.BitstampWebsocketClientHandler 46 onReceive - 收到消息:{"event":"trade","data":"{\"amount\": 4.5333958499999998, \"buy_order_id\": 2466150215, \"sell_order_id\": 2466143981, \"amount_str\": \"4.53339585\", \"price_str\": \"121.28\", \"timestamp\": \"1543485976\", \"price\": 121.28, \"type\": 0, \"id\": 78645168}","channel":"live_trades_ethusd"}
+2018-11-29 18:06:16 DEBUG c.q.m.s.w.b.BitstampWebsocketClientHandler 46 onReceive - 收到消息:{"event":"trade","data":"{\"amount\": 25.0, \"buy_order_id\": 2466150222, \"sell_order_id\": 2466150046, \"amount_str\": \"25.00000000\", \"price_str\": \"0.38944\", \"timestamp\": \"1543485976\", \"price\": 0.38944000000000001, \"type\": 0, \"id\": 78645169}","channel":"live_trades_xrpusd"}

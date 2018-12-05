@@ -1,0 +1,30 @@
+2018-11-29 13:48:05 INFO  c.q.m.Application 48 logStarting - Starting Application on LAPTOP-10S94U1O with PID 19012 (D:\work\QuantDo\spring-boot-index\target\classes started by Quantdo in D:\work\QuantDo\spring-boot-index)
+2018-11-29 13:48:05 INFO  c.q.m.Application 593 logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2018-11-29 13:48:05 INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext 583 prepareRefresh - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6f267093: startup date [Thu Nov 29 13:48:05 CST 2018]; root of context hierarchy
+2018-11-29 13:48:05 INFO  o.h.v.i.u.Version 30 <clinit> - HV000001: Hibernate Validator 5.3.5.Final
+2018-11-29 13:48:08 ERROR o.s.b.b.PropertiesConfigurationFactory 350 checkForBindingErrors - Properties configuration failed validation
+2018-11-29 13:48:08 ERROR o.s.b.b.PropertiesConfigurationFactory 352 checkForBindingErrors - Field error in object 'spring.cache' on field 'type': rejected value ["0"]; codes [typeMismatch.spring.cache.type,typeMismatch.type,typeMismatch.org.springframework.boot.autoconfigure.cache.CacheType,typeMismatch]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [spring.cache.type,type]; arguments []; default message [type]]; default message [Failed to convert property value of type 'java.lang.String' to required type 'org.springframework.boot.autoconfigure.cache.CacheType' for property 'type'; nested exception is org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.String] to type [org.springframework.boot.autoconfigure.cache.CacheType] for value '"0"'; nested exception is java.lang.IllegalArgumentException: No enum constant org.springframework.boot.autoconfigure.cache.CacheType."0"]
+2018-11-29 13:48:08 WARN  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext 551 refresh - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start embedded container; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.web.EmbeddedServletContainerAutoConfiguration$EmbeddedTomcat': Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.cache.config.internalCacheAdvisor' defined in class path resource [org/springframework/cache/annotation/ProxyCachingConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.cache.interceptor.BeanFactoryCacheOperationSourceAdvisor]: Factory method 'cacheAdvisor' threw exception; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cacheAutoConfigurationValidator': Unsatisfied dependency expressed through field 'cacheProperties'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'spring.cache-org.springframework.boot.autoconfigure.cache.CacheProperties': Could not bind properties to CacheProperties (prefix=spring.cache, ignoreInvalidFields=false, ignoreUnknownFields=true, ignoreNestedProperties=false); nested exception is org.springframework.validation.BindException: org.springframework.boot.bind.RelaxedDataBinder$RelaxedBeanPropertyBindingResult: 1 errors
+Field error in object 'spring.cache' on field 'type': rejected value ["0"]; codes [typeMismatch.spring.cache.type,typeMismatch.type,typeMismatch.org.springframework.boot.autoconfigure.cache.CacheType,typeMismatch]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [spring.cache.type,type]; arguments []; default message [type]]; default message [Failed to convert property value of type 'java.lang.String' to required type 'org.springframework.boot.autoconfigure.cache.CacheType' for property 'type'; nested exception is org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.String] to type [org.springframework.boot.autoconfigure.cache.CacheType] for value '"0"'; nested exception is java.lang.IllegalArgumentException: No enum constant org.springframework.boot.autoconfigure.cache.CacheType."0"]
+2018-11-29 13:48:08 INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer 101 logAutoConfigurationReport - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-11-29 13:48:08 ERROR o.s.b.d.LoggingFailureAnalysisReporter 42 report - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Binding to target org.springframework.boot.autoconfigure.cache.CacheProperties@65e4a4ea failed:
+
+    Property: spring.cache.type
+    Value: "0"
+    Reason: Failed to convert property value of type 'java.lang.String' to required type 'org.springframework.boot.autoconfigure.cache.CacheType' for property 'type'; nested exception is org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.String] to type [org.springframework.boot.autoconfigure.cache.CacheType] for value '"0"'; nested exception is java.lang.IllegalArgumentException: No enum constant org.springframework.boot.autoconfigure.cache.CacheType."0"
+
+
+Action:
+
+Update your application's configuration
+
